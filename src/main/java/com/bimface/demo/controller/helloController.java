@@ -13,7 +13,7 @@ public class helloController {
     public String a;
 
 
-    @ApiOperation(value="文件", notes="到底该怎么解决啊！！！",httpMethod = "GET", produces = MediaType.APPLICATION_JSON_VALUE)
+    @ApiOperation(value="文件",httpMethod = "GET", produces = MediaType.APPLICATION_JSON_VALUE)
     @RequestMapping("/hello")
     public String hello(){
         //String markdown_file_path="src/docs/markdown/generated/paths.md";
