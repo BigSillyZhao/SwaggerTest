@@ -1,0 +1,22 @@
+== Resources
+=== 新闻列表
+==== 获取新闻列表
+----
+GET /news
+----
+===== Description
+:hardbreaks:
+可以获取首页,公司动态, 行业动态等新闻列表
+include::test.adoc[]
+===== Responses
+[options="header"]
+|===
+|HTTP Code|Description|Schema
+|200|successful operation|<<Pet>> array
+|400|Invalid status value|No Content
+|===
+
+===== Produces
+
+* application/json
+

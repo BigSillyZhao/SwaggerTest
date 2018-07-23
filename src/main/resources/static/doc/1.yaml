@@ -1,0 +1,9 @@
+/details:
+  get:
+    responses:
+      '200':
+        description: 200 OK defined in $ref file
+        schema:
+          $ref: '#/definitions/branch'
+    summary: Branch details
+    description: Retrieve details of the current branches of BankA.

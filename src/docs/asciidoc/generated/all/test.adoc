@@ -1,0 +1,7 @@
+image::1.png[]
+
+|===
+|HTTP Code|Description|Schema
+|200|successful operation|<<Pet>> array
+|400|Invalid status value|No Content
+|===
