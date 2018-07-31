@@ -30,6 +30,7 @@ import java.nio.file.Paths;
 
 public class DiffUtils {
 
+    //zhushishism 
     private static final Logger LOGGER = LoggerFactory.getLogger(DiffUtils.class);
 
     public static void assertThatAllFilesAreEqual(Path expectedDirectory, Path actualDirectory, String reportName) {
